@@ -1,0 +1,538 @@
+% Introduction
+@misc{TweetFirefox, 
+ title={Mozilla plans to roll out DNS over HTTPS TO US users in late September 2019 \#firefox \#DOH \#dns \#httpshttps://t.co/yoo2xkf1th pic.twitter.com/deyouvedov},
+ url={https://twitter.com/ghacks/status/1170365128874897410},
+ journal={Twitter},
+ publisher={Twitter},
+ author={Ghacksnews},
+ year={2019},
+ month={Sep},
+ note = {Accessed on January 17, 2022}
+}
+ 
+@article{GarciaEtAl_LargeScaleMEasurement,
+  title={Large Scale Measurement on the Adoption of Encrypted DNS},
+  author={Garc{\'\i}a, Sebasti{\'a}n and Hynek, Karel and Vekshin, Dmtrii and {\v{C}}ejka, Tom{\'a}{\v{s}} and Wasicek, Armin},
+  journal={arXiv preprint arXiv:2107.04436},
+  year={2021}
+}
+ 
+@misc{Blog_PrevalenceOfDoH,
+ title={The prevalence of DNS over HTTPS},
+ url={https://blog.apnic.net/2021/09/13/the-prevalence-of-dns-over-https/},
+ pubisher={APNIC},
+ author={Hynek, Karel},
+ year={2021},
+ month={Sep},
+ note = {Accessed on January 17, 2022}
+}
+ 
+@misc{NSA_AdoptingEncryptedDNS,
+ title={Adopting Encrypted DNS in Enterprise Environments},
+ url={https://media.defense.gov/2021/Jan/14/2002564889/-1/-1/0/CSI_ADOPTING_ENCRYPTED_DNS_U_OO_102904_21.PDF},
+ pubisher={NSA},
+ year={2021},
+ month={Jan},
+ note = {Accessed on January 17, 2022}
+}
+
+@misc{GodluaBackdoor,
+ title={An Analysis of Godlua Backdoor},
+ url={https://blog.netlab.360.com/an-analysis-of-godlua-backdoor-en/},
+ pubisher={Netlab 360},
+ author={Turing, Alex and Ye, Genshen},
+ year={2019},
+ month={July},
+ note = {Accessed on January 17, 2022}
+}
+ 
+@misc{Oilrig,
+ title={Iranian hacker group becomes first known APT to weaponize DNS-over-HTTPS (DoH)},
+ url={https://www.zdnet.com/article/iranian-hacker-group-becomes-first-known-apt-to-weaponize-dns-over-https-doh/},
+ pubisher={ZDNet},
+ author={Cimpanu, Catalin},
+ year={2020},
+ month={August},
+ note = {Accessed on January 17, 2022}
+}
+ 
+@misc{DNSExfiltrator,
+  author = {Arno0x},
+  title = {DNSExfiltrator},
+  url = {https://github.com/Arno0x/DNSExfiltrator},
+  year = {2017},
+  month = {Dec},
+  note = {Accessed on January 17, 2022}
+}
+
+@inproceedings{SecGrid,
+  title={SecGrid: a Visual System for the Analysis and ML-based Classification of Cyberattack Traffic},
+  author={Franco, Muriel and Von der Assen, Jan and Boillat, Luc and Killer, Christian and Rodrigues, Bruno and Scheid, Eder J and Granville, Lisandro and Stiller, Burkhard},
+  booktitle={2021 IEEE 46th Conference on Local Computer Networks (LCN)},
+  pages={140--147},
+  year={2021},
+  organization={IEEE}
+}
+
+
+% Background
+@misc{RFC1035,
+  title={Rfc1035: Domain names-implementation and specification},
+  author={Mockapetris, Paul V},
+  year={1987},
+  publisher={RFC Editor}
+}
+
+@article{kim2020survey,
+  title={A survey of domain name system vulnerabilities and attacks},
+  author={Kim, Tae Hyun and Reeves, Douglas},
+  journal={Journal of Surveillance, Security and Safety},
+  volume={1},
+  number={1},
+  pages={34--60},
+  year={2020},
+  publisher={OAE Publishing Inc.}
+}
+
+@misc{RFC2616,
+  title={RFC2616: Hypertext Transfer Protocol--HTTP/1.1},
+  author={Fielding, Roy and Gettys, Jim and Mogul, Jeffrey and Frystyk, Henrik and Masinter, Larry and Leach, Paul and Berners-Lee, Tim},
+  year={1999},
+  publisher={RFC Editor}
+}
+
+@article{borman2014rfc7323,
+  title={TCP Extensions for High Performance},
+  author={Borman, D. and Braden, B. and Jacobson, V. and Scheffenegger, R.},
+  journal={RFC7323},
+  year={2014}
+}
+
+@INPROCEEDINGS{calzavara2019psotcards,
+  author={Calzavara, Stefano and Focardi, Riccardo and Nemec, Matus and Rabitti, Alvise and Squarcina, Marco},
+  booktitle={2019 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Postcards from the Post-HTTP World: Amplification of HTTPS Vulnerabilities in the Web Ecosystem}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={281-298},
+  doi={10.1109/SP.2019.00053}
+ }
+
+@book{silberschatz2013OSConcepts,
+ author={Silberschatz, Abraham and Galvin, Peter B. and Gagne, Greg},
+ title={Operating System Concepts},
+ publisher={John Wiley and Sons Inc},
+ address={Hoboken, NJ, USA},
+ edition={9th ed.},
+ year={2013},
+ isbn={978-1-118-12938-8}
+}
+
+@inproceedings{naylor2014costs,
+ author = {Naylor, David and Finamore, Alessandro and Leontiadis, Ilias and Grunenberger, Yan and Mellia, Marco and Munaf\`{o}, Maurizio and Papagiannaki, Konstantina and Steenkiste, Peter},
+ title = {The Cost of the "S" in HTTPS},
+ year = {2014},
+ isbn = {9781450332798},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi.org/10.1145/2674005.2674991},
+ doi = {10.1145/2674005.2674991},
+ pages = {133–140},
+ numpages = {8},
+ keywords = {security, https, tls, privacy, http 2.0, web proxies},
+ location = {Sydney, Australia},
+ series = {CoNEXT '14}
+}
+
+@book{coulouris2012DistributedSystems,
+ author={Coulouris, George and Dollimore, Jean and Kindberg, Tim and Blair, Gordon},
+ title={Distributed Systems},
+ publisher={Addison-Wesley},
+ address={Boston, MA, USA},
+ edition={5th ed.},
+ year={2012},
+ isbn={978-0-13-214301-1}
+}
+
+@misc{Blog_ClosingTCPSession,
+ title={TCP Series \#2: How to close TCP sessions and diagnose disconnections?},
+ url={https://accedian.com/blog/close-tcp-sessions-diagnose-disconnections/},
+ pubisher={ACCEDIAN},
+ author={Savary, Guillaume},
+ year={2017},
+ month={April},
+ note = {Accessed on February 23, 2022}
+}
+
+@misc{Blog_DNSProviders,
+ title={DNS Security and Privacy — Choosing the right provider},
+ url={https://medium.com/@nykolas.z/dns-security-and-privacy-choosing-the-right-provider-61fc6d54b986},
+ pubisher={Mediom},
+ author={Z, Nykiolas},
+ year={2018},
+ month={April},
+ note = {Accessed on February 23, 2022}
+}
+
+@misc{RFC2818,
+  title={RFC2818: HTTP Over TLS},
+  author={Rescorla, Eric},
+  year={2000},
+  publisher={RFC Editor}
+}
+
+@techreport{RFC6101,
+  title={The secure sockets layer (SSL) protocol version 3.0},
+  author={Freier, Alan and Karlton, Philip and Kocher, Paul},
+  year={2011},
+  institution={RFC 6101}
+}
+
+@misc{RFC2246,
+  title={Rfc2246: The TLS protocol version 1.0},
+  author={Dierks, Tim and Allen, Christopher},
+  year={1999},
+  publisher={RFC Editor}
+}
+
+@misc{RFC8484,
+  title={RFC 8484: DNS queries over https (DOH)},
+  author={Hoffman, P and McManus, P},
+  year={2018},
+  publisher={October}
+}
+
+@techreport{RFC8427,
+  title={Representing DNS Messages in JSON},
+  author={Hoffman, P},
+  year={2018},
+  institution={RFC 8427, DOI 10.17487/RFC8427, July 2018,< https://www. rfc-editor. org~…}
+}
+
+@inproceedings{Lu2019LageScaleMeasurement,
+author = {Lu, Chaoyi and Liu, Baojun and Li, Zhou and Hao, Shuang and Duan, Haixin and Zhang, Mingming and Leng, Chunying and Liu, Ying and Zhang, Zaifeng and Wu, Jianping},
+title = {An End-to-End, Large-Scale Measurement of DNS-over-Encryption: How Far Have We Come?},
+year = {2019},
+isbn = {9781450369480},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3355369.3355580},
+doi = {10.1145/3355369.3355580},
+booktitle = {Proceedings of the Internet Measurement Conference},
+pages = {22–35},
+numpages = {14},
+keywords = {Domane Name System, DNS-over-TLS, DNS Privacy, DNS Measurement, DNS-over-HTTPS},
+location = {Amsterdam, Netherlands},
+series = {IMC '19}
+}
+
+@inproceedings{BoettingerEtAl_CostOfDoH,
+  title={An Empirical Study of the Cost of DNS-over-HTTPS},
+  author={B{\"o}ttger, Timm and Cuadrado, Felix and Antichi, Gianni and Fernandes, Eder Le{\~a}o and Tyson, Gareth and Castro, Ignacio and Uhlig, Steve},
+  booktitle={Proceedings of the Internet Measurement Conference},
+  pages={15--21},
+  year={2019}
+}
+
+@misc{Lua,
+ title={Lua},
+ url={https://www.lua.org/},
+ pubisher={Lua},
+ author={},
+ year={},
+ month={},
+ note = {Accessed on February 24, 2022}
+}
+
+@misc{shyhunt,
+ title={LUA WEB APPLICATION SECURITY VULNERABILITIES},
+ url={https://www.syhunt.com/en/index.php?n=Articles.LuaVulnerabilities},
+ pubisher={Shyhunt},
+ author={Daragon, Felipe},
+ year={2014},
+ month={May},
+ note = {Accessed on February 24, 2022}
+}
+
+@INPROCEEDINGS{bumanglag2020ImpactOfDNS,
+  author={Bumanglag, Kimo and Kettani, Houssain},
+  booktitle={2020 3rd International Conference on Information and Computer Technologies (ICICT)}, 
+  title={On the Impact of DNS Over HTTPS Paradigm on Cyber Systems}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={494-499},
+  doi={10.1109/ICICT50521.2020.00085}
+ }
+ 
+@misc{psixbot,
+ title={PsiXBot InfoStealer Uses DNS over HTTPS},
+ url={https://www.infoblox.com/wp-content/uploads/threat-intelligence-report-psixbot-infostealer-uses-dns-over-https.pdf},
+ pubisher={Infoblox},
+ author={Armer, Jonathan},
+ year={2019},
+ month={December},
+ note = {Accessed on February 26, 2022}
+}
+
+@misc{psixbot2,
+ title={PsiXBot Now Using Google DNS over HTTPS and Possible New Sexploitation Module},
+ url={https://www.proofpoint.com/us/threat-insight/post/psixbot-now-using-google-dns-over-https-and-possible-new-sexploitation-module},
+ pubisher={Proofpoint},
+ author={PROOFPOINT THREAT INSIGHT TEAM},
+ year={2019},
+ month={Sepember},
+ note = {Accessed on February 26, 2022}
+}
+
+@misc{pcap,
+ title={PCAP: Packet Capture, what it is \& what you need to know},
+ url={https://www.comparitech.com/net-admin/pcap-guide/#:~:text=pcap\%20files\%20to\%20record\%20packet,you\%20can\%20view\%20through\%20Wireshark.},
+ pubisher={comparitech},
+ author={Keary, Tim},
+ year={2021},
+ month={May},
+ note = {Accessed on February 24, 2022}
+}
+
+@misc{wireshark,
+ title={Wireshark},
+ url={https://www.wireshark.org/},
+ pubisher={Wireshark},
+ author={},
+ year={},
+ month={},
+ note = {Accessed on February 26, 2022}
+}
+
+
+% Related Work
+@inproceedings{HuangEtAl_DoHDowngradeAttack,
+  title={A Comprehensive Study of $\{$DNS-over-HTTPS$\}$ Downgrade Attack},
+  author={Huang, Qing and Chang, Deliang and Li, Zhou},
+  booktitle={10th USENIX Workshop on Free and Open Communications on the Internet (FOCI 20)},
+  year={2020}
+}
+
+@article{Hjelm_ANewNeedle,
+  title={A new needle and haystack: Detecting DNS over HTTPS usage},
+  author={Hjelm, Drew},
+  journal={SANS Institute, Information Security Reading Room},
+  year={2019}
+}
+
+@inproceedings{VeshkinEtAl_DoHInsightML,
+  title={Doh insight: Detecting dns over https by machine learning},
+  author={Vekshin, Dmitrii and Hynek, Karel and Cejka, Tomas},
+  booktitle={Proceedings of the 15th International Conference on Availability, Reliability and Security},
+  pages={1--8},
+  year={2020}
+}
+
+@phdthesis{montazerishatoori2020anomaly,
+  title={An anomaly detection framework for DNS-over-HTTPS (DoH) tunnel using time-series analysis},
+  author={MontazeriShatoori, Mohammadreza},
+  year={2020},
+  school={University of New Brunswick.}
+}
+
+@misc{DoHlyzer,
+  author = {ahlashkari},
+  title = {DoHlyzer},
+  url = {https://github.com/ahlashkari/DoHlyzer},
+  year = {2019},
+  month = {Nov},
+  note = {Accessed on February 10, 2022}
+}
+
+@misc{Scapy,
+ title={Scapy Project},
+ url={https://scapy.net/},
+ pubisher={Scapy},
+ author={Biondi, Philippe},
+ year={2021},
+ note = {Accessed on February 10, 2022}
+}
+
+@misc{CIRA-CIC-DoHBrw-2020,
+ title={CIRA-CIC-DoHBrw-2020},
+ url={https://www.unb.ca/cic/datasets/dohbrw-2020.html},
+ pubisher={University of New Brunswick},
+ note = {Accessed on February 10, 2022}
+}
+
+@inproceedings{SinghRoy_DetectingMalicousDoHTrafficML,
+  title={Detecting malicious DNS over HTTPS traffic using machine learning},
+  author={Singh, Sunil Kumar and Roy, Pradeep Kumar},
+  booktitle={2020 International Conference on Innovation and Intelligence for Informatics, Computing and Technologies (3ICT)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{Banadaki_DetectingMalicousDoHTrafficinDNSUsingML,
+  title={Detecting malicious dns over https traffic in domain name system using machine learning classifiers},
+  author={Banadaki, Yaser M},
+  journal={Journal of Computer Sciences and Applications},
+  volume={8},
+  number={2},
+  pages={46--55},
+  year={2020}
+}
+
+@article{BehnkeEtAl_FeatureEngineeringMLModelMaliciusDoHTraffic,
+  title={Feature engineering and machine learning model comparison for malicious activity detection in the dns-over-https protocol},
+  author={Behnke, Matthew and Briner, Nathan and Cullen, Drake and Schwerdtfeger, Katelynn and Warren, Jackson and Basnet, Ram and Doleck, Tenzin},
+  journal={IEEE Access},
+  volume={9},
+  pages={129902--129916},
+  year={2021},
+  publisher={IEEE}
+}
+
+@inproceedings{MitsuhashiEtAl_IdentifyingmaliciousDNSTunnelTools,
+  title={Identifying Malicious DNS Tunnel Tools from DoH Traffic Using Hierarchical Machine Learning Classification},
+  author={Mitsuhashi, Rikima and Satoh, Akihiro and Jin, Yong and Iida, Katsuyoshi and Shinagawa, Takahiro and Takai, Yoshiaki},
+  booktitle={International Conference on Information Security},
+  pages={238--256},
+  year={2021},
+  organization={Springer}
+}
+
+@article{AlFawaRehEtAl_DetectingMaliciousDNSQueriesBRNN,
+  title={Detecting Malicious DNS Queries Over Encrypted Tunnels Using Statistical Analysis and Bi-Directional Recurrent Neural Networks},
+  author={Al-Fawa'reh, Mohammad and Ashi, Zain and Jafar, Mousa Tayseer},
+  journal={Karbala International Journal of Modern Science},
+  volume={7},
+  number={4},
+  pages={4},
+  year={2021}
+}
+
+% Design
+@book{ross2010statistics,
+ author={Ross, Sheldon M.},
+ title={Introdutory Statistics},
+ publisher={Academic Press},
+ address={Cambridge, MA, USA},
+ edition={4th ed.},
+ year={2010},
+ isbn={978-0-12-374388-6}
+}
+
+@book{jain2021statisticsEconomics,
+ author={Jain, T.R. and Ohri, V.K.},
+ title={Introdutory Statistics},
+ publisher={Global Publications Pvt. Ltd.},
+ address={Dehli, India},
+ edition={},
+ year={2021},
+ isbn={978-8-18-714007-8}
+}
+
+@book{awasthi2013statistics,
+ author={Awasthi, Amit K.},
+ title={Statistics},
+ publisher={Darbose Inc.},
+ address={India},
+ edition={1st ed.},
+ year={2013},
+ isbn={978-1-30-433964-5}
+}
+
+@article{ke2017lightgbm,
+  title={Lightgbm: A highly efficient gradient boosting decision tree},
+  author={Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@misc{scikit_lgbm,
+ title={LightGBM},
+ url={https://lightgbm.readthedocs.io/en/latest/index.html},
+ pubisher={Microsoft Corporation},
+ author={Microsoft Corporation},
+ year={2022},
+ note = {Accessed on March 10, 2022}
+}
+
+% Implementation
+@misc{sll,
+ title={SLL Wireshark},
+ url={https://wiki.wireshark.org/SLL#:~:text=Linux\%20cooked\%2Dmode\%20capture\%20(SLL,or\%20can't\%20be\%20used.},
+ pubisher={Wireshark},
+ author={Wireshark},
+ year={2020},
+ note = {Accessed on March 18, 2022}
+}
+
+@misc{mathjs,
+ title={Mathjs API},
+ url={https://api.mathjs.org/},
+ pubisher={Mathjs},
+ author={Mathjs},
+ year={},
+ note = {Accessed on March 18, 2022}
+}
+
+@misc{pandas,
+ title={Pandas Library},
+ url={https://pandas.pydata.org/},
+ pubisher={Pandas},
+ author={Pandas},
+ year={2022},
+ note = {Accessed on March 29, 2022}
+}
+
+@misc{lightGBM,
+ title={LGBM},
+ url={https://lightgbm.readthedocs.io/en/latest/},
+ pubisher={LGBM},
+ author={LGBM},
+ year={2022},
+ note = {Accessed on March 29, 2022}
+}
+
+@inproceedings{sklearn_api,
+  author    = {Lars Buitinck and Gilles Louppe and Mathieu Blondel and
+               Fabian Pedregosa and Andreas Mueller and Olivier Grisel and
+               Vlad Niculae and Peter Prettenhofer and Alexandre Gramfort
+               and Jaques Grobler and Robert Layton and Jake VanderPlas and
+               Arnaud Joly and Brian Holt and Ga{\"{e}}l Varoquaux},
+  title     = {{API} design for machine learning software: experiences from the scikit-learn
+               project},
+  booktitle = {ECML PKDD Workshop: Languages for Data Mining and Machine Learning},
+  year      = {2013},
+  pages = {108--122},
+}
+
+%Evaluation
+@misc{featureImportance,
+ title={Feature importance},
+ url={https://inria.github.io/scikit-learn-mooc/python_scripts/dev_features_importance.html},
+ pubisher={scikit-learn},
+ author={scikit-learn developers},
+ year={2021},
+ note = {Accessed on April 8, 2022}
+}
+
+@misc{ieee_dataset,
+url = {https://dx.doi.org/10.21227/96ea-2055},
+author = {Jeřábek, Kamil and Stuchlý, Samuel},
+publisher = {IEEE Dataport},
+title = {DNS Over HTTPS network traffic},
+year = {2021},
+note = {Accessed on March 29, 2022}
+}
+
+@book{Zheng2015EvaluatingML,
+ author={Zheng, Alice},
+ title={Evaluating Machine Learning Models},
+ publisher={O'Reilly Media, Inc},
+ address={Sebastopol, CA, USA},
+ edition={First ed.},
+ year={2015},
+ isbn={978-1-491-93244-5}
+}
